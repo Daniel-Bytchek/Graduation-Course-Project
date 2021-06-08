@@ -11,7 +11,9 @@ namespace Version_1._1
 {
     class DB
     {
-        MySqlConnection connection = new MySqlConnection("server=sql11.freesqldatabase.com;port=3306;username=sql11417645;password=3ntSFy2Nmt;database=sql11417645");
+        //  MySqlConnection connection = new MySqlConnection("server=sql11.freesqldatabase.com;port=3306;username=sql11417728;password=hJsNluekuU;database=sql11417728");
+        //  MySqlConnection connection = new MySqlConnection("server=localhost;port=3306;username=root;password=root;database=librarydata");
+        MySqlConnection connection = new MySqlConnection("server=remotemysql.com;port=3306;username=T1CgZwYVcR;password=CHOltRE0sn;database=T1CgZwYVcR");
 
         public void openConnection()
         {
